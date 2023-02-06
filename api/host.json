@@ -3,9 +3,16 @@
   "logging": {
     "applicationInsights": {
       "samplingSettings": {
-        "isEnabled": true,
-        "excludedTypes": "Request"
-      }
+        "isEnabled": false
+      },
+      "enableDependencyTracking": true
+    },
+    "fileLoggingMode": "always",
+    "logLevel": {
+      "default": "Information",
+      "Host.Results": "Error",
+      "Function": "Error",
+      "Host.Aggregator": "Trace"
     }
   },
   "extensionBundle": {
