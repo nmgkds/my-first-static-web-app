@@ -9,14 +9,14 @@
     },
     "fileLoggingMode": "always",
     "logLevel": {
-      "default": "Information",
-      "Host.Results": "Error",
-      "Function": "Error",
+      "default": "Trace",
+      "Host.Results": "Trace",
+      "Function": "Trace",
       "Host.Aggregator": "Trace"
     }
   },
   "extensionBundle": {
     "id": "Microsoft.Azure.Functions.ExtensionBundle",
-    "version": "[1.*, 2.0.0)"hahah
+    "version": "[1.*, 2.0.0)"
   }
 }
