@@ -13,7 +13,7 @@
 // }
 
 module.exports = async function (context, req) {
-    context.res.json({
+    context.res.json({,
         text: "Helloooooo from the API"
     });
 };
